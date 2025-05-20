@@ -1,0 +1,36 @@
+.menu{
+    position: fixed;
+}
+.header {
+    text-align: center;
+    height: 80vh;
+    margin-top: 200px;
+}
+  
+.profile-img {
+    box-shadow:  0 0 10px rgba(0, 255, 128, 0.6);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 50%;
+}
+
+.profile-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 255, 128, 0.6);
+}
+
+
+.about {
+    height: 80vh;
+    margin-top: 200px;
+}
+
+.courseimg {
+    height: 64px;
+    transition: transform 0.3s ease, height 0.3s ease;
+    object-fit: cover;
+}
+
+.courseimg:hover {
+    height: 50%; 
+    transform: scale(1.05);
+}
